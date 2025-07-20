@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    line-height: 1.4;
+    font-weight: 300 ;
+    font-family: Arial;
+}
+.hero_section{
+    background-image: url(developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.text_container{
+    color: rgb(226, 148, 2);
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.lg_text{
+    font-size: 72px;
+    font-weight: 400;
+}
+.work{
+    
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    padding:70px;
+    font-size: 3em; 
+    text-align: center;
+}
+.work2{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgb(97, 126, 189);
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 5px blue;
+}
+.imgCont img {
+    width: 100%;
+    border-radius: 5px;
+}
+.info{
+  position: relative;
+  height: 100vh;
+  background-color: #f0f0f0;
+  
+}
+.contact{
+    position: absolute;
+    padding: 30px;
+    background-color: rgb(44, 209, 146);
+    width: 60vh;
+    
+}
+
+.about{
+    margin-left: 550px;
+    position: absolute;
+    padding: 30px;
+    background-color: rgb(224, 77, 77);
+    
+    width: 63vh;
+    
+}
+footer{
+    text-align: center;
+    background-color: blanchedalmond;
+   
+}
+
